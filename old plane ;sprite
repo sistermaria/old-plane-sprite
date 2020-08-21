@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+  <title></title>
+
+
+
+<style>
+    body {
+      padding: 30px;
+    }
+ 
+    #spriteContainer {
+      width: 600px;
+      height: 600px;
+      display: block;
+      background-image: url("https://cdn.pixabay.com/photo/2017/09/28/13/38/aircraft-2795557_1280.jpg");
+      animation: sprite 1.0s steps(20) infinite;
+    }
+ 
+    @keyframes sprite {
+     100% {
+       background-position: -824px;
+     }
+    }
+  </style>
+</head>
+ 
+<body>
+  <div id=spriteContainer></div>
+ 
+  <script src="/js/prefixfree.min.js"></script>
+</body>
+ 
+</html>
